@@ -12,12 +12,10 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class PipelineExApplicationTests {
 
-	TestController underTest = new TestController();
 
 	@Test
 	void contextLoads() {
-		when(underTest.test()).thenReturn(anyString());
-       Assertions.assertEquals(anyString(),underTest.test());
+		
 	}
 
 }
